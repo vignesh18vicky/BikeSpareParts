@@ -1,0 +1,59 @@
+[
+    {
+      "id": "1",
+      "name": "Durable Bike Chain",
+      "price": 499,
+      "image": "assets/chain.webp",
+      "description": "Rust-resistant and smooth shifting chain for all terrains."
+    },
+    {
+      "id": "2",
+      "name": "All-Terrain Tires",
+      "price": 1999,
+      "image": "assets/tyre.jpg",
+      "description": "Grip-enhanced tires ideal for mountain and city rides. These tires feature a tread pattern designed to offer sufficient grip on loose surfaces and trails while maintaining reasonable rolling efficiency for city streets. But provides enough traction for varied off-road conditions"
+    },
+    {
+      "id": "3",
+      "name": "Seat Cover",
+      "price": 599,
+      "image": "assets/seat1.jpg",
+      "description": "Nylon Cushion Seat Cover Compatible with Yezdi Roadster Compatible for Motor Bike Black 100% Waterproof"
+    },
+    {
+      "id": "4",
+      "name": "Chain Spray",
+      "price": 199,
+      "image": "assets/chain spray.jpg",
+      "description": "Groommm Bike chain cleaner and chain lubricant spray combo (150MLX 2) | Heavy duty chain lube spray for bike| cycle chain cleaner | Cleans, Preserves and Protects"
+    },
+    {
+      "id": "5",
+      "name": "Riding Gloves",
+      "price": 399,
+      "image": "assets/Gloves.jpg",
+      "description": "TVS Riding Gloves for Men-Mesh for Ventilation, Bike Riding Gloves with Touch Screen Compatible & Visor Wiper Fingertips, TPR Protection for Knuckles-Premium Bike Gloves for Riding Comfort"
+    },
+    {
+      "id": "6",
+      "name": "Bike Cover",
+      "price": 599,
+      "image": "assets/Bike cover.jpg",
+      "description": "Autofy Universal Bike Cover UV Protection & Dustproof Bike Body Cover for Two Wheeler Bike"
+    },
+    {
+      "id": "7",
+      "name": "Mobile Stand",
+      "price": 250,
+      "image": "assets/mobile-stand.jpg",
+      "description": "Mobile Holder for Bikes, Motorcycle, Scooter, Bicycles, Jaw Grip Bike Mobile Holder, Aluminium Handlebar Cellphone Holder for Maps and Gps Navigation with 360° Rotation Phone Mount-Black"
+    },
+    {
+      "id": "8",
+      "name": "Handle End Mirror",
+      "price": 649,
+      "image": "assets/handle-mirror.jpg",
+      "description": "Handle Grip End rear Mirror for Bike Rear View Side Handle Bar End Mirror | Round Convex Glass Mirror for Compatible for RE Reborn 350, Classic 350, Hunter 350,Meteor 350 "
+    }
+  ]
+  

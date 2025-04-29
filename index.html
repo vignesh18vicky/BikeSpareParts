@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spare Parts Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signinsignup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+        <a href="index.html" class="logo">Bike Spare Parts</a>
+        <nav class="nav">
+            <a href="#offers" class="highlight">Hot Offers</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search parts..." />
+            <i class="fa fa-search"></i>
+        </div>
+    </header>
+    
+    <div id="toast"></div>
+
+    <div class="container right-panel-active">
+        <!-- Sign Up -->
+        <div class="container__form container--signup">
+            <form class="form" id="signup-form">
+                <h2 class="form__title">Sign Up</h2>
+                <input type="text" id="signup-name" placeholder="User" class="input" autocomplete="username" required/>
+                <input type="email" id="signup-email" placeholder="Email" class="input" autocomplete="email" required/>
+                <input type="password" id="signup-password" placeholder="Password" class="input" autocomplete="new-password" required/>
+                <button type="submit" class="btn">Sign Up</button>
+            </form>
+        </div>
+    
+        <!-- Sign In / login -->
+        <div class="container__form container--signin">
+            <form  class="form"  id="login-form">
+                <h2 class="form__title">Sign In</h2>
+                <input type="email" id="login-email" placeholder="Email" class="input" autocomplete="email" required/>
+                <input type="password" id="login-password" placeholder="Password" class="input" autocomplete="current-password" required />
+                <a href="#" class="link">Forgot your password?</a>
+                <button type="submit" class="btn">Sign In</button>
+            </form>
+        </div>
+    
+        <!-- Overlay -->
+        <div class="container__overlay">
+            <div class="overlay">
+                <div class="overlay__panel overlay--left">
+                    <button class="btn" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay__panel overlay--right">
+                    <button class="btn" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="toast.js"></script>
+    <script src="signinsignup.js"></script>
+</body>
+
+</html>
